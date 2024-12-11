@@ -16,7 +16,7 @@ const Recipe = ({
   return (
     <>
       {id && (
-        <div>
+        <div className="recipe">
           <h2>{name}</h2>
           <p>
             エリア<span>{area}</span>
