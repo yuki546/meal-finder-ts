@@ -3,6 +3,7 @@ import Form from "./components/Form";
 import Recipe from "./components/Recipe";
 import Loading from "./components/Loading";
 import Layout from "./components/Layout";
+import "./App.css";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
